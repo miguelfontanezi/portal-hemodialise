@@ -1,0 +1,566 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+:root {
+    --color-00: #ebf2f2;
+    --color-01: #d0f2e7;
+    --color-02: #bcebdf;
+    --color-03: #ade0db;
+    --color-04: #d9dbdb;
+    --white: #fff; 
+    --color-destaque:#839a94;
+}
+/* Cabeçalho */
+.container-header {
+    background-image: linear-gradient(to bottom, var(--color-02), var(--color-00));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container-header h1 {
+    font-size: 3em;
+}
+
+.container-header p {
+    padding: 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+/* Nav*/
+.navegation {
+    background-color: var(--color-01);
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0,192);
+    text-align: center;
+}
+
+.navegation a {
+    text-align: center;
+    font-family: sans-serif;
+    color: #3a39a8;
+    padding: 10px;
+    margin: 30px;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+.navegation a:hover {
+    border-bottom: solid 1px #000;
+    color: #000;
+    
+}
+
+/*  Main  */
+
+.container-principal{
+    display: block;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: var(--color-00);
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px #a19c9c;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container-principal .historia-dialise {
+    padding-top: 50px;
+    display: flex;
+    border-bottom: solid 1px #000;
+    flex-direction: column;
+}
+
+.container-principal picture {
+    width: 100%;
+    display: flex;
+}
+
+.container-principal .manuscrito {
+    width: 400px;
+    float: left;
+}
+
+.container-principal .historia-dialise h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 3em;
+    position: relative;
+    width: 100%;
+}
+
+.container-principal .historia-dialise h2 {
+    text-align: center;
+    position: relative;
+    font-size: 2em;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.container-principal .historia-dialise picture .manuscrito {
+    position: relative;
+    padding-top: 30px;
+    margin-left: 250px;
+}
+
+.container-principal .historia-dialise blockquote {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-principal .historia-dialise p {
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.container-principal .historia-dialise .button {
+    color: #3a39a8;
+    background-color: var(--color-02);
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.container-principal .historia-dialise .button:hover {
+    background-color: #3a39a8;
+    color: #fff;
+}
+/* ---------------------------------------------------------------------------*/
+.primordios-hd {
+    padding-top: 50px;
+    display: flex;
+    border-bottom: solid 1px #000;
+    flex-direction: column;
+}
+
+.primordios-hd h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500px;
+    font-size: 2em;
+    position: relative;
+    width: 100%;
+}
+
+.primordios-hd picture .universidade {
+    width: 600px;
+    position: relative;
+    padding-top: 30px;
+    margin-left: 200px;
+}
+
+.primordios-hd blockquote {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.primordios-hd .button {
+    color: #3a39a8;
+    background-color: var(--color-02);
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.primordios-hd .button:hover {
+    background-color: #3a39a8;
+    color: #fff;
+}
+
+.primordios-hd p {
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+/* ---------------------------------------------------------------------------*/
+.tratamento-bem-sucedido-hd {
+    padding-top: 50px;
+    display: flex;
+    border-bottom: solid 1px #000;
+    flex-direction: column;
+}
+
+.tratamento-bem-sucedido-hd h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500px;
+    font-size: 2em;
+    position: relative;
+    width: 100%;
+}
+
+.tratamento-bem-sucedido-hd .imagem-willem-kolff .trat-sucedido {
+    width: 400px;
+    position: relative;
+    padding-top: 30px;
+    margin-left: 250px;
+}
+
+.tratamento-bem-sucedido-hd blockquote {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tratamento-bem-sucedido-hd p {
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.tratamento-bem-sucedido-hd .button {
+    color: #3a39a8;
+    background-color: var(--color-02);
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.tratamento-bem-sucedido-hd .button:hover {
+    background-color: #3a39a8;
+    color: #fff;
+}
+
+/* ---------------------------------------------------------------------------*/
+
+.rim-tambor-rotativo {
+    padding-top: 50px;
+    display: flex;
+    border-bottom: solid 1px #000;
+    flex-direction: column;
+}
+
+.rim-tambor-rotativo h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500px;
+    font-size: 2em;
+    position: relative;
+    width: 100%;
+}
+
+.rim-tambor-rotativo p {
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.rim-tambor-rotativo .img-rim-tambor-rotativo img {
+    width: 400px;
+    position: relative;
+    padding-top: 30px;
+    margin-left: 250px;
+
+}
+
+.rim-tambor-rotativo blockquote {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.rim-tambor-rotativo .button{
+    color: #3a39a8;
+    background-color: var(--color-02);
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.rim-tambor-rotativo .button:hover{
+    background-color: #3a39a8;
+    color: #fff;
+}
+
+/* ---------------------------------------------------------------------------*/
+
+.dialise-uf {
+    padding-top: 50px;
+    display: flex;
+    border-bottom: solid 1px #000;
+    flex-direction: column;
+}
+
+.dialise-uf h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500px;
+    font-size: 2em;
+    position: relative;
+    width: 100%;
+}
+
+.dialise-uf p {
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.dialise-uf .img-dialise-ultrafiltracao img {
+    width: 400px;
+    position: relative;
+    padding-top: 30px;
+    margin-left: 250px;
+}
+
+.dialise-uf blockquote {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dialise-uf .button {
+    color: #3a39a8;
+    background-color: var(--color-02);
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.dialise-uf .button:hover{
+    background-color: #3a39a8;
+    color: #fff;
+}
+
+/* ---------------------------------------------------------------------------*/
+
+.acesso-vasc-hd {
+    padding-top: 50px;
+    display: flex;
+    border-bottom: solid 1px #000;
+    flex-direction: column;
+}
+
+.acesso-vasc-hd h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500px;
+    font-size: 2em;
+    position: relative;
+    width: 100%;
+}
+
+.acesso-vasc-hd p {
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.acesso-vasc-hd .img-acesso-vascular-dialise img{
+    width: 400px;
+    position: relative;
+    padding-top: 30px;
+    margin-left: 250px;
+}
+
+.acesso-vasc-hd blockquote {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.acesso-vasc-hd .button {
+    color: #3a39a8;
+    background-color: var(--color-02);
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.acesso-vasc-hd .button:hover{
+    background-color: #3a39a8;
+    color: #fff;
+}
+
+/* ---------------------------------------------------------------------------*/
+.primeiro-paciente {
+    padding-top: 50px;
+    display: flex;
+    border-bottom: solid 1px #000;
+    flex-direction: column;
+}
+
+.primeiro-paciente h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500px;
+    font-size: 2em;
+    position: relative;
+    width: 100%;
+}
+
+.primeiro-paciente p {
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.primeiro-paciente .img-primeiro-paciente img{
+    width: 400px;
+    position: relative;
+    padding-top: 30px;
+    margin-left: 250px;
+}
+
+.primeiro-paciente blockquote {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.primeiro-paciente .button {
+    color: #3a39a8;
+    background-color: var(--color-02);
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.primeiro-paciente .button:hover{
+    background-color: #3a39a8;
+    color: #fff;
+}
+/* ---------------------------------------------------------------------------*/
+.hd-moderna {
+    padding-top: 50px;
+    display: flex;
+    border-bottom: solid 1px #000;
+    flex-direction: column;
+}
+
+.hd-moderna h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500px;
+    font-size: 2em;
+    position: relative;
+    width: 100%;
+}
+
+.hd-moderna p {
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.hd-moderna .img-hd-moderna img{
+    width: 400px;
+    position: relative;
+    padding-top: 30px;
+    margin-left: 250px;
+}
+
+.hd-moderna blockquote {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hd-moderna .button {
+    color: #3a39a8;
+    background-color: var(--color-02);
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.hd-moderna .button:hover{
+    background-color: #3a39a8;
+    color: #fff;
+}
+/* ---------------------------------------------------------------------------*/
+
+.informes {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    background-color: var(--color-03);
+    display: block;
+}
+
+.informes h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500px;
+    font-size: 2em;
+    position: relative;
+}
+
+.informes ul li a {
+    font-size: 1.3em;
+    color: #000;
+}
+
+.informes ul li a:hover {
+    border-bottom: 2px solid;
+}
+
+.informes ul li {
+    padding-bottom: 10px;
+}
+
+.footer {
+    width: 100%;
+    padding: 50px;
+    background-color: var(--color-00);
+    text-align: center;
+}
+
+.footer p {
+    font-weight: bold;
+}
